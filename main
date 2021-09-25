@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int birthDay, zoydag;
+        System.out.print("Doğum yılınızı giriniz\t: ");
+        birthDay = scanner.nextInt();
+        zoydag = birthDay % 12;
+        switch (zoydag) {
+            case 0:
+                System.out.println("Çin Zodyağı burcunuz\t: MAYMUN");
+                break;
+            case 1:
+                System.out.println("Çin Zodyağı burcunuz\t: HOROZ");
+                break;
+            case 2:
+                System.out.println("Çin Zodyağı burcunuz\t: KÖPEK");
+                break;
+            case 3:
+                System.out.println("Çin Zodyağı burcunuz\t: DOMUZ");
+                break;
+            case 4:
+                System.out.println("Çin Zodyağı burcunuz\t: FARE");
+                break;
+            case 5:
+                System.out.println("Çin Zodyağı burcunuz\t: ÖKÜZ");
+                break;
+            case 6:
+                System.out.println("Çin Zodyağı burcunuz\t: KAPLAN");
+                break;
+            case 7:
+                System.out.println("Çin Zodyağı burcunuz\t: TAVŞAN");
+                break;
+            case 8:
+                System.out.println("Çin Zodyağı burcunuz\t: EJDERHA");
+                break;
+            case 9:
+                System.out.println("Çin Zodyağı burcunuz\t: YILAN");
+                break;
+            case 10:
+                System.out.println("Çin Zodyağı burcunuz\t: AT");
+                break;
+            case 11:
+                System.out.println("Çin Zodyağı burcunuz\t: KOYUN");
+                break;
+        }
+    }
+}
